@@ -3,19 +3,14 @@ import java.util.*;
 public class Solution {
     
     static ListNode reverseList(ListNode head) {
-        return helper(head, null);
-    }
-
-    static ListNode helper(ListNode remaining, ListNode reversed) {
-        if (remaining == null) {
-            return reversed;
-        } else {
-            ListNode tmp = remaining.next;
-            remaining.next = reversed;
-            reversed = remaining;
-            remaining = tmp;
-            return helper(remaining, reversed);
+        ListNode reversed = null;
+        while (head != null) {
+            ListNode tmp = head.next;
+            head.next = reversed;
+            reversed = head;
+            head = tmp;
         }
+        return reversed;
     }
 
     static class ListNode {

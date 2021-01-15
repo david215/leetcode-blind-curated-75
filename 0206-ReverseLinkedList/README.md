@@ -79,3 +79,28 @@ public ListNode helper(ListNode remaining, ListNode reversed) {
     - uses more memory than the map approach
     - an iterative appoarch will likely consume less memory
 
+## take 3
+- an iterative approach
+![](img5.jpg)
+- submission:
+```java
+public ListNode reverseList(ListNode head) {
+    ListNode reversed = null;
+    while (head != null) {
+        ListNode tmp = head.next;
+        head.next = reversed;
+        reversed = head;
+        head = tmp;
+    }
+    return reversed;
+}
+```
+- Time
+    - O(N), since only need sweep the linked list once
+- Space
+    - O(1), as no recursion or additional data structure used
+- Result
+    - Accepted
+    - fast, as expected
+    - space efficient, as expected
+
