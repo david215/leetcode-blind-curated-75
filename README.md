@@ -7,3 +7,4 @@
 [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0005-LongestPalindromicSubstring/)
 [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0011-ContainerWithMostWater)
 [15. 3Sum](https://leetcode.com/problems/3sum/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0015-3Sum)
+[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0104-MaximumDepthOfBinaryTree)
