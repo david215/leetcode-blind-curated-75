@@ -1,9 +1,13 @@
-[Problem](https://leetcode.com/problems/????)
+[Problem](https://leetcode.com/problems/reverse-linked-list/)
 
 ## takeaway
-- 
+- Be careful when trying to divide the problem into subproblems.
+- "Flipping" the problem, e.g. adding the head to the reversed list instead
+  adding the tail to the reversed list, can be very powerful.
+- Using a temporary pointer is often useful.
 
-![](img.jpg)
+![](img1.jpg)
+![](img2.jpg)
 
 ## take 1
 - a goofy approach using a map
@@ -42,4 +46,36 @@ public ListNode reverseList(ListNode head) {
     - surprisingly, less memory usage compared to 93.82% of other submissions
       despite linear space complexity, probably because a recursive approach
       require O(N) stack frames anyways
+
+## take 2
+- a recursive approach
+![](img3.jpg)
+![](img4.jpg)
+- submission:
+```java
+public ListNode reverseList(ListNode head) {
+    return helper(head, null);
+}
+
+public ListNode helper(ListNode remaining, ListNode reversed) {
+    if (remaining == null) {
+        return reversed;
+    } else {
+        ListNode tmp = remaining.next;
+        remaining.next = reversed;
+        reversed = remaining;
+        remaining = tmp;
+        return helper(remaining, reversed);
+    }
+}
+```
+- Time
+    - O(N), since only need sweep the linked list once
+- Space
+    - O(N), because O(N) stack frames
+- Result
+    - Accepted
+    - fast, as expected
+    - uses more memory than the map approach
+    - an iterative appoarch will likely consume less memory
 

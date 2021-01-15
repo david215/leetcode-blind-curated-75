@@ -3,24 +3,19 @@ import java.util.*;
 public class Solution {
     
     static ListNode reverseList(ListNode head) {
-        if (head == null || head.next == null) {
-            return head;
+        return helper(head, null);
+    }
+
+    static ListNode helper(ListNode remaining, ListNode reversed) {
+        if (remaining == null) {
+            return reversed;
+        } else {
+            ListNode tmp = remaining.next;
+            remaining.next = reversed;
+            reversed = remaining;
+            remaining = tmp;
+            return helper(remaining, reversed);
         }
-        Map<Integer, ListNode> map = new HashMap<>();
-        int i = 0;
-        while (head != null) {
-            map.put(i++, head);
-            head = head.next;
-        }
-        int j = i - 1;
-        head = map.get(j);
-        ListNode ptr = head;
-        while (j >= 0) {
-            ptr.next = map.get(j--);
-            ptr = ptr.next;
-        }
-        ptr.next = null;
-        return head;
     }
 
     static class ListNode {
