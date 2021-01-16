@@ -3,11 +3,26 @@ import java.util.*;
 public class Solution {
     
     static boolean containsDuplicate(int[] nums) {
-        Set<Integer> set = new HashSet<>();
-        for (int num : nums) {
-            if (!set.add(num)) {
+        if (nums == null || nums.length == 1) {
+            return false;
+        }
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+        for (int n : nums) {
+            max = Math.max(max, n);
+            min = Math.min(min, n);
+        }
+        int diff = max - min;
+        if (diff == 0) {
+            return true;
+        }
+        int[] arr = new int[diff + 1];
+        for (int n : nums) {
+            int i = n - min;
+            if (arr[i] != 0) {
                 return true;
             }
+            arr[i]++;
         }
         return false;
     }
