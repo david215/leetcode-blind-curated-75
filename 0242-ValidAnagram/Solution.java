@@ -6,18 +6,14 @@ public class Solution {
         if (s.length() != t.length()) {
             return false;
         }
-        Map<Character, Integer> map = new HashMap<>();
-        for (int i = 0; i < s.length(); i++) {
-            char x = s.charAt(i);
-            char y = t.charAt(i);
-            if (x != y) {
-                int n = map.getOrDefault(x, 0);
-                int m = map.getOrDefault(y, 0);
-                map.put(x, n + 1);
-                map.put(y, m - 1);
-            }
+        int[] arr = new int[26];
+        for (char c : s.toCharArray()) {
+            arr[c - 'a']++;
         }
-        for (int count : map.values()) {
+        for (char c : t.toCharArray()) {
+            arr[c - 'a']--;
+        }
+        for (int count : arr) {
             if (count != 0) {
                 return false;
             }
