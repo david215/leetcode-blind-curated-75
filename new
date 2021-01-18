@@ -1,0 +1,34 @@
+#!/bin/sh
+
+if [ $# -ne 3 ]; then
+    echo 'need num, name, and level'
+    exit 1
+fi
+
+NUM=$1
+NAME=$2
+LEVEL=$3
+
+NUM_ZERO_PADDED="$(printf '%04d' $1)"
+PASCAL_NAME="$(echo $NAME | sed -e 's/\<\(\w\)/\u\0/g; s/ //g')"
+DIR="$NUM_ZERO_PADDED-$PASCAL_NAME"
+URL_NAME="$(echo $2 | tr '[:upper:]' '[:lower:]' | sed -e 's/ /-/g')"
+
+mkdir $DIR
+cp ~/leetcode/soln-template.java $DIR/Solution.java
+cp ~/leetcode/write-up-template.md $DIR/README.md
+
+# Populate the URL in README
+sed -i "s/URL_PLACEHOLDER/$URL_NAME/" $DIR/README.md
+
+# Append a row to the table in the top-level README
+NEW="[$NUM. $NAME](https://leetcode.com/problems/$URL_NAME/) | $LEVEL | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/$DIR/)"
+echo $NEW >> README.md
+
+# Inplace sort all the rows in the table by the problem number
+(head -n 4; sort -t '[' -nk2) < README.md 1<> README.md
+
+git add -u
+git add $DIR
+git commit -m "$NUM. $NAME"
+
