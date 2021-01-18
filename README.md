@@ -9,6 +9,7 @@
 [15. 3Sum](https://leetcode.com/problems/3sum/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0015-3Sum/)
 [100. Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0100-SameTree/)
 [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0104-MaximumDepthOfBinaryTree/)
+[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0121-BestTimeToBuyAndSellStock/)
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0206-ReverseLinkedList/)
 [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0217-ContainsDuplicate/)
 [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0226-InvertBinaryTree/)
