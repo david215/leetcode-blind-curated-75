@@ -13,6 +13,7 @@
 [100. Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0100-SameTree/)
 [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0104-MaximumDepthOfBinaryTree/)
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0121-BestTimeToBuyAndSellStock/)
+[125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0125-ValidPalindrome/)
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0141-LinkedListCycle/)
 [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0190-ReverseBits/)
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0206-ReverseLinkedList/)
