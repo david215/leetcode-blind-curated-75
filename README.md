@@ -24,4 +24,5 @@
 [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0252-MeetingRooms/)
 [268. Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0268-MissingNumber/)
 [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0338-CountingBits/)
+[347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0347-TopKFrequentElements/)
 [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0572-SubtreeOfAnotherTree/)
