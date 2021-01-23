@@ -15,7 +15,8 @@ DIR="$NUM_ZERO_PADDED-$PASCAL_NAME"
 URL_NAME="$(echo $2 | tr '[:upper:]' '[:lower:]' | sed -e 's/ /-/g')"
 
 mkdir $DIR
-cp ~/leetcode/soln-template.java $DIR/Solution.java
+# cp ~/leetcode/soln-template.java $DIR/Solution.java
+cp ~/leetcode/soln-template.py $DIR/solution.py
 cp ~/leetcode/write-up-template.md $DIR/README.md
 
 # Populate the URL in README
