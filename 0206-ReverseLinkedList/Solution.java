@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Solution {
-    
+
     static ListNode reverseList(ListNode head) {
         ListNode reversed = null;
         while (head != null) {
@@ -22,10 +22,10 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        ListNode in = new ListNode(1, 
+        ListNode in = new ListNode(1,
                           new ListNode(2,
                               new ListNode(3,
-                                  new ListNode(4, 
+                                  new ListNode(4,
                                       new ListNode(5)))));
         ListNode out = reverseList(in);
 

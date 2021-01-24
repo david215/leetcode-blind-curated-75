@@ -69,3 +69,18 @@ public boolean containsDuplicate(int[] nums) {
     - used much more memory, as expected
     - but really, this solution is a joke xD
 
+## take 3
+- code
+```python
+def contains_duplicate(self, nums: list[int]) -> bool:
+    s = set()
+    for n in nums:
+        if n in s:
+            return True
+        else:
+            s.add(n)
+    return False
+```
+- Result
+    - Accepted
+

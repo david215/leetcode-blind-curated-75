@@ -108,3 +108,14 @@ public boolean isAnagram(String s, String t) {
       performance loss is more than compensated for by the performance gain
       from using `toCharArray()`
 
+## take 4
+- code:
+```python
+is_anagram(self, s: str, t: str) -> bool:
+    if len(s) != len(t):
+        return False
+    return Counter(s) == Counter(t)
+```
+- Result:
+    - Accepted
+

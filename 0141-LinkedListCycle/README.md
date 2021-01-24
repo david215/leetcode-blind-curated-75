@@ -23,3 +23,23 @@ public boolean hasCycle(ListNode head) {
 - Result
     - Accepted
 
+## take 2
+- Python version
+- code:
+```python
+def hasCycle(self, head: ListNode) -> bool:
+    slow, fast = head, head
+    while fast and fast.next:
+        slow = slow.next
+        fast = fast.next.next
+        if slow is fast:
+            return True
+    return False
+```
+- Time
+    - O(N)
+- Space
+    - O(1)
+- Result
+    - Accepted
+

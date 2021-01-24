@@ -28,7 +28,7 @@ public int climbStairs(int n) {
 - code:
 ```java
 public Map<Integer, Integer> map = new HashMap<>();
-    
+
 public int climbStairs(int n) {
     if (n == 1) {
         return 1;
@@ -55,7 +55,7 @@ public int climbStairs(int n) {
 - code:
 ```java
 public Map<Integer, Integer> map = new HashMap<>();
-    
+
 public int climbStairs(int n) {
     if (n < 3) {
         return n;
@@ -93,6 +93,21 @@ public int climbStairs(int n) {
     }
     return curr;
 }
+```
+- Result
+    - Accepted
+
+## take 5
+- code:
+```python
+def climb_stairs(self, n: int) -> int:
+    if n < 3:
+        return n
+    prev = 1
+    curr = 2
+    for i in range(3, n + 1): # inclusive
+        prev, curr = curr, prev + curr
+    return curr
 ```
 - Result
     - Accepted

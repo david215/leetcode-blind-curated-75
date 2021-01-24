@@ -104,3 +104,18 @@ public ListNode reverseList(ListNode head) {
     - fast, as expected
     - space efficient, as expected
 
+## take 4
+- code:
+```python
+reverse_list(self, head: ListNode):
+    _reversed = None
+    while head:
+        tmp = head.next
+        head.next = _reversed
+        _reversed = head
+        head = tmp
+    return _reversed
+```
+- Result:
+    - Accepted
+

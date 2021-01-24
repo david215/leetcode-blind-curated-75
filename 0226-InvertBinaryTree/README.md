@@ -28,3 +28,17 @@ public TreeNode invertTree(TreeNode root) {
 - Result
     - Accepted
 
+## take 2
+- code:
+```python
+invert_tree(self, root: TreeNode) -> TreeNode:
+    if not root:
+        return None
+    else:
+        left = self.invert_tree(root.right)
+        right = self.invert_tree(root.left)
+        return TreeNode(root.val, left, right)
+```
+- Result:
+    - Accepted
+

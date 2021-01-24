@@ -1,7 +1,7 @@
 [Problem](https://leetcode.com/problems/reverse-bits/)
 
 ## takeaway
-- Be careful with off-by-one error, e.g. this problem needed 31 shifts, not 32. 
+- Be careful with off-by-one error, e.g. this problem needed 31 shifts, not 32.
 
 ## take 1
 ![](img-1.jpg)
@@ -17,6 +17,27 @@ public int reverseBits(int n) {
     return reversed;
 }
 ```
+- Result
+    - Accepted
+
+## take 2
+- Python version
+- code
+```python
+def reverseBits(self, n: int) -> int:
+    res = 0
+    for i in range(31):
+        b = n & 1
+        res |= b
+        n >>= 1
+        res <<= 1
+    res |= n
+    return res
+```
+- Time
+    - O(1)
+- Space
+    - O(1)
 - Result
     - Accepted
 

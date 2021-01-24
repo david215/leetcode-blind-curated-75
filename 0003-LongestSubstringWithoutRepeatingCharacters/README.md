@@ -6,11 +6,11 @@
 
 ## thought process
 - naive brute force approach: start with character and continue until meeting a
-  repeating chracter, keeping track of the maximum length, e.g. for "abcabcbb", 
+  repeating chracter, keeping track of the maximum length, e.g. for "abcabcbb",
   ("a", len = 1) -> ("ab", len = 2) -> ("abc", len = 3) -> repetition, but
   remember the maximum length of 3 -> ("b", len = 3) -> ... and so on
     - this approach is O(n^2), as it requires n + (n - 1) + (n - 2)... lookups
-- is there a data structure I can leverage on to reduce to O(n)? O(n log n)? 
+- is there a data structure I can leverage on to reduce to O(n)? O(n log n)?
 - when we encounter "abca", we want to start with "bca", not "b"; if this is
   possible, we can achieve O(n)
 - keep track of start and end index?
@@ -52,6 +52,25 @@ public int lengthOfLongestSubstring(String s) {
       operations on a hash map is O(1)
 - Space
     - O(n) for the additional map
+- Result
+    - Accepted
+
+## take 2
+```python
+def length_of_longest_substring(self, s: str) -> int:
+    max_length = 0
+    d = {}
+    i = 0
+    for j, c in enumerate(s):  # j is the upper bound of the sliding window
+        if c in d:
+            k = d[c]
+            for ch in s[i:k]:
+                del d[ch]
+            i = k + 1  # start AFTER the repeated character
+        d[c] = j
+        max_length = max(max_length, j - i + 1)
+    return max_length
+```
 - Result
     - Accepted
 

@@ -36,7 +36,7 @@ public int maxProfit(int[] prices) {
     - bad constant factor in time complexity and space inefficient...
     - there must be a better solution
 
-## take 1
+## take 2
 ![](img3.jpg)
 - submission:
 ```java
@@ -57,4 +57,18 @@ public int maxProfit(int[] prices) {
 - Result
     - Accepted
     - much better
+
+## take 3
+- code
+```python
+def max_profit(self, prices: list[int]):
+    _min = float('inf')
+    res = 0
+    for p in prices:
+        _min = min(_min, p)
+        res = max(res, p - min)
+    return res
+```
+- Result
+    - Accepted
 

@@ -12,7 +12,7 @@
 public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
     if (root.equals(p)
         || root.equals(q)
-        || p.val < root.val && root.val < q.val 
+        || p.val < root.val && root.val < q.val
         || p.val > root.val && root.val > q.val) {
         return root;
     } else if (p.val < root.val && q.val < root.val) {
@@ -74,6 +74,22 @@ public TreeNode lca(TreeNode root, TreeNode p, TreeNode q) {
     - O(V)
 - Space
     - O(1)
+- Result
+    - Accepted
+
+## take 4
+- code
+```python
+def lowest_common_ancestor(self, root, p, q):
+    while True:
+        if p.val < root.val and q.val < root.val:
+            root = root.left
+        elif p.val > root.val and q.val > root.val:
+            root = root.right
+        else:
+            break
+    return root
+```
 - Result
     - Accepted
 

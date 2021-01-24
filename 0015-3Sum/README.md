@@ -104,8 +104,8 @@ static class Pair {
     public boolean equals(Object o) {
         if (o instanceof Pair) {
             Pair op = (Pair) o;
-            return this.x == op.x && this.y == op.y 
-                || this.x == op.y && this.y == op.x; 
+            return this.x == op.x && this.y == op.y
+                || this.x == op.y && this.y == op.x;
         }
         return false;
     }
@@ -310,7 +310,7 @@ static void twoSum(int[] nums, int i, List<List<Integer>> result) {
         int y = nums[j];
         int yCount = map.getOrDefault(y, 0);
         yCount++;
-        map.put(y, yCount); 
+        map.put(y, yCount);
     }
     int j = i + 1;
     while (j < len - 1) {
@@ -336,4 +336,41 @@ static void twoSum(int[] nums, int i, List<List<Integer>> result) {
     - Accepted
     - as expected, much slower than the two pointer approach despite the same
       asymptotic time complexity, and uses more space
+
+## take 4
+- Python version
+- code:
+```python
+def threeSum(self, nums: List[int]) -> List[List[int]]:
+    res = []
+    nums.sort()
+    end = len(nums) - 1
+    i = 0
+    while i <= end - 2:
+        j = i + 1
+        k = end
+        a = nums[i]
+        while j < k:
+            b, c = nums[j], nums[k]
+            sum_ = a + b + c
+            if sum_ == 0:
+                res.append([a, b, c])
+                while nums[j] == b and j < k:
+                    j += 1
+                while nums[k] == c and j < k:
+                    k -= 1
+            elif sum_ < 0:
+                j += 1
+            else:  # sum > 0
+                k -= 1
+        while nums[i] == a and i <= end - 2:
+            i += 1
+    return res
+```
+- Time
+    - O(N^2)
+- Space
+    - O(1)
+- Result
+    - Accepted
 

@@ -48,3 +48,19 @@ public int[] twoSum(int[] nums, int target) {
     - O(n), because the additional map requires O(n) space.
 - Result
     - Accepted
+
+## take 2
+```python
+def two_sum(self, nums: list[int], target: int) -> list[int]:
+    d = {}
+    for i, n in enumerate(nums):
+        complement = target - n
+        if complement in d:
+            j = d[complement]
+            return [i, j]
+        else:
+            d[n] = i
+```
+- Result
+    - Accepted
+
