@@ -16,6 +16,7 @@
 [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0125-ValidPalindrome/)
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0141-LinkedListCycle/)
 [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0190-ReverseBits/)
+[191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0191-NumberOf1Bits/)
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0206-ReverseLinkedList/)
 [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0217-ContainsDuplicate/)
 [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0226-InvertBinaryTree/)
