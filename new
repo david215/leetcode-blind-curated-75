@@ -1,18 +1,19 @@
-#!/bin/sh
+#!/bin/bash
 
-if [ $# -ne 3 ]; then
-    echo 'need num, name, and level'
+if [ $# -ne 2 ]; then
+    echo 'need (num. name) and level'
     exit 1
 fi
 
-NUM=$1
-NAME=$2
-LEVEL=$3
+ARR=($(echo $1 | tr ". " "\n"))
+NUM="${ARR[0]}"
+NAME="${ARR[@]:1}"
+LEVEL="$2"
 
-NUM_ZERO_PADDED="$(printf '%04d' $1)"
+NUM_ZERO_PADDED="$(printf '%04d' $NUM)"
 PASCAL_NAME="$(echo $NAME | sed -e 's/\<\(\w\)/\u\0/g; s/ //g')"
 DIR="$NUM_ZERO_PADDED-$PASCAL_NAME"
-URL_NAME="$(echo $2 | tr '[:upper:]' '[:lower:]' | sed -e 's/ /-/g')"
+URL_NAME="$(echo $NAME | tr '[:upper:]' '[:lower:]' | sed -e 's/ /-/g')"
 
 mkdir $DIR
 # cp ~/leetcode/soln-template.java $DIR/Solution.java
