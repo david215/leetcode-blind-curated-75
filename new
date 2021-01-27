@@ -19,6 +19,7 @@ mkdir $DIR
 cp ~/leetcode/soln-template.py $DIR/solution.py
 cp ~/leetcode/write-up-template.md $DIR/README.md
 
+
 # Populate the URL in README
 sed -i "s/URL_PLACEHOLDER/$URL_NAME/" $DIR/README.md
 
@@ -27,7 +28,10 @@ NEW="[$NUM. $NAME](https://leetcode.com/problems/$URL_NAME/) | $LEVEL | [Link](h
 echo $NEW >> README.md
 
 # Inplace sort all the rows in the table by the problem number
-(head -n 4; sort -t '[' -nk2) < README.md 1<> README.md
+(head -n 6; sort -t '[' -nk2) < README.md 1<> README.md
+
+# Update the counter in the top-level README
+sed -i "3s/.*/### $(ls -l . | grep -c ^d) \/ 75/" README.md
 
 git add -u
 git add $DIR

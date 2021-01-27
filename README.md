@@ -1,5 +1,7 @@
 ## LeetCode Blind Curated 75
 
+### COUNTER
+
 **Problem** | **Difficulty** | **Solution + Write-up**
 -- | :-: | :-:
 [1. TwoSum](https://leetcode.com/problems/two-sum/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0001-TwoSum/)
