@@ -20,7 +20,6 @@ mkdir $DIR
 cp ~/leetcode/soln-template.py $DIR/solution.py
 cp ~/leetcode/write-up-template.md $DIR/README.md
 
-
 # Populate the URL in README
 sed -i "s/URL_PLACEHOLDER/$URL_NAME/" $DIR/README.md
 
@@ -33,6 +32,12 @@ echo $NEW >> README.md
 
 # Update the counter in the top-level README
 sed -i "3s/.*/### $(ls -l . | grep -c ^d) \/ 75/" README.md
+
+# Copy and rename images
+ARR=($(find ~/Downloads/ -name '*.jpg' | sort))
+for INDEX in ${!ARR[@]}; do
+    mv "${ARR[$INDEX]}" "$DIR/img-$((INDEX + 1)).jpg"
+done
 
 git add -u
 git add $DIR
