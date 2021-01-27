@@ -1,6 +1,6 @@
 ## LeetCode Blind Curated 75
 
-### COUNTER
+### 29 / 75
 
 **Problem** | **Difficulty** | **Solution + Write-up**
 -- | :-: | :-:
@@ -25,6 +25,7 @@
 [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0226-InvertBinaryTree/)
 [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0230-KthSmallestElementInABST/)
 [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0235-LowestCommonAncestorOfABinarySearchTree/)
+[238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0238-ProductOfArrayExceptSelf/)
 [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0242-ValidAnagram/)
 [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0252-MeetingRooms/)
 [268. Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0268-MissingNumber/)
