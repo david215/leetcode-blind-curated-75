@@ -43,3 +43,5 @@ git add -u
 git add $DIR
 git commit -m "$NUM. $NAME"
 
+vim $DIR/solution.py $DIR/README.md
+
