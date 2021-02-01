@@ -1,6 +1,6 @@
 ## LeetCode Blind Curated 75
 
-### 32 / 75
+### 33 / 75
 
 **Problem** | **Difficulty** | **Solution + Write-up**
 -- | :-: | :-:
@@ -32,6 +32,7 @@
 [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0242-ValidAnagram/)
 [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0252-MeetingRooms/)
 [268. Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0268-MissingNumber/)
+[323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0323-NumberOfConnectedComponentsInAnUndirectedGraph/)
 [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0338-CountingBits/)
 [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0347-TopKFrequentElements/)
 [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0572-SubtreeOfAnotherTree/)
