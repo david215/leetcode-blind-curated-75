@@ -2,7 +2,7 @@
 
 ## takeaway
 - Always try to identify / classify the approach you're taking.
-- Be thorough with edge cases; can't let take 1 happen again.
+- Be thorough with edge cases; can't let something like take 1 happen again.
 
 ## take 1
 ![](img-1.jpg)
