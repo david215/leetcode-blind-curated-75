@@ -1,6 +1,6 @@
 ## LeetCode Blind Curated 75
 
-### 35 / 75
+### 36 / 75
 
 **Problem** | **Difficulty** | **Solution + Write-up**
 -- | :-: | :-:
@@ -26,6 +26,7 @@
 [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0190-ReverseBits/)
 [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0191-NumberOf1Bits/)
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0206-ReverseLinkedList/)
+[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0208-ImplementTrie(PrefixTree)/)
 [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0217-ContainsDuplicate/)
 [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0226-InvertBinaryTree/)
 [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0230-KthSmallestElementInABST/)
