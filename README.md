@@ -1,6 +1,6 @@
 ## LeetCode Blind Curated 75
 
-### 37 / 75
+### 38 / 75
 
 **Problem** | **Difficulty** | **Solution + Write-up**
 -- | :-: | :-:
@@ -39,5 +39,6 @@
 [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0323-NumberOfConnectedComponentsInAnUndirectedGraph/)
 [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0338-CountingBits/)
 [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0347-TopKFrequentElements/)
+[371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0371-SumOfTwoIntegers/)
 [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0572-SubtreeOfAnotherTree/)
 [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0647-PalindromicSubstrings/)
