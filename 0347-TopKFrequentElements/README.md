@@ -48,7 +48,7 @@ public int[] topKFrequent(int[] nums, int k) {
     for (int num : nums) {
         numToCountMap.put(num, numToCountMap.getOrDefault(num, 0) + 1);
     }
-    
+
     Map<Integer, Set<Integer>> countToNumsMap = new HashMap<>();
     int maxCount = 0;
     for (Map.Entry<Integer, Integer> e : numToCountMap.entrySet()) {
@@ -77,6 +77,36 @@ public int[] topKFrequent(int[] nums, int k) {
     return result;
 }
 ```
+- Result
+    - Accepted
+
+## take 3
+- Python version
+- code:
+```python
+def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+    c = Counter(nums)
+
+    bins = [None for _ in range(len(nums))]
+    for key, val in c.items():
+        if not bins[val - 1]:
+            bins[val - 1] = []
+        bins[val - 1].append(key)
+
+    res = []
+    for i in range(len(nums) - 1, -1, -1):
+        curr_bin = bins[i]
+        if curr_bin:
+            res += curr_bin
+            k -= len(curr_bin)
+            if k == 0:
+                break
+    return res
+```
+- Time
+    - O(N)
+- Space
+    - O(N)
 - Result
     - Accepted
 

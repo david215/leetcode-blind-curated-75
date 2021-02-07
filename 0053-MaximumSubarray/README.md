@@ -4,6 +4,9 @@
 - There are multiple ways to divide a DP problem into subproblems, where some
   are better than others.
 - Be careful with edge cases, e.g. null input, input of size 1, etc.
+- Python: use `islice` to make an iterator that returns selected elements from
+  the iterable, e.g. `islice([1, 2, 3], 1, None) -> [2, 3]` without copying the
+  iterable like `l[1:]`.
 
 ## take 1
 - code:
@@ -57,4 +60,23 @@ public int maxSubArray(int[] nums) {
 - Note
     - it's also possible to reverse the subproblem to solve for the max sum
       including the element at index `i` as the tail element of the subarray
+
+## take 3
+- Python version
+- code:
+```python
+def maxSubArray(self, nums: List[int]) -> int:
+    res = prev = nums[0]
+    for n in islice(nums, 1, None):  # start=1, continue until the end
+        curr = max(prev, 0) + n
+        res = max(res, curr)
+        prev = curr
+    return res
+```
+- Time
+    - O(N)
+- Space
+    - O(1)
+- Result
+    - Accepted
 

@@ -133,3 +133,31 @@ public int maxArea(int[] height) {
 - Result
     - Accepted
 
+## submission 2
+```python
+def maxArea(self, height: List[int]) -> int:
+    res = 0
+    i = 0
+    j = len(height) - 1
+    while i < j:
+        x = height[i]
+        y = height[j]
+        w = j - i
+        h = min(x, y)
+        res = max(res, w * h)
+        if x < y:
+            i += 1
+        elif x > y:
+            j -= 1
+        else:
+            i += 1
+            j -= 1
+    return res
+```
+- Time
+    - O(N)
+- Space
+    - O(1)
+- Result
+    - Accepted
+

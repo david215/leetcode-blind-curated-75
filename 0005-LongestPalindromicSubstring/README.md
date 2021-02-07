@@ -1,5 +1,10 @@
 [Problem](https://leetcode.com/problems/longest-palindromic-substring/)
 
+## takeaway
+- Filling in the base cases for DP can reduce unneccessary branching and
+  also make handling boundaries easier.
+- When doing DP, traverse along rows if possible to maximize data locality.
+
 ## useful info
 - `s` is alphanumeric
 - there can be multiple valid answers, e.g. "babad" can return "bab" or "aba"
@@ -11,12 +16,12 @@
     - odd-length inputs have a midpoint, but even-length inputs don't
 - a naive brute force approach:
     - starting at each index, look to the left and the right, and if the
-      substring is not a palindrome or if we reached the end of the string, 
+      substring is not a palindrome or if we reached the end of the string,
       move on to the next index, keeping track of the maximum length
     - we're interested in the actual palindrome, not just the maximum length
     - will have time complexity of O(n^2)?
 - is there a data structure we can leverage on to reduce the time complexity?
-- stack could be a good candidate for the structure of the problem 
+- stack could be a good candidate for the structure of the problem
 - using a set to find repeated element won't do, because can't check symmetry
 - two-pointer approach of narrowing down from the start at the end could work
 - if char at i and j are different increment i or decrement j
@@ -24,7 +29,7 @@
 - could we try both in a subproblem solving manner? won't this approach have
   time complexity of O(n^2) though?
 - how many contiguous substrings? O(n^2) since sum of arithmetic series
-- so two-pointer approach starting at the ends could be an efficient approach 
+- so two-pointer approach starting at the ends could be an efficient approach
 - but how can we handle the case wherer char at i and j are the same?
     - e.g. "dabcd" will have the same char at indices 0 and 4, but that does't
       mean much, as the inner substring is not a palindrome
@@ -59,7 +64,7 @@
 - if s is a palindrome, s.substring(1, s.length() - 1) is also a palindrome, if
   s.length() > 2 and s.charAt(0) == s.charAt(s.length())
 - conversely, s is a palinedrome if:
-    1. s.length() == 1 
+    1. s.length() == 1
     2. s.length() == 2 and s.charAt(0) == s.charAt(1)
     3. s.substring(1, s.length() - 1) and s.charAt(0) == s.charAt(s.length())
 - instead of checking if a string `s` is a palinedrome in linear time, we
@@ -109,4 +114,66 @@ public String longestPalindrome(String s) {
     - Accepted
 - Note
     - DP approach seems to be quite slow, despite the optimal time complexity.
+
+## take 2
+```python
+def longest_palindrome(self, s: str) -> str:
+    l = len(s)
+    dp = [[False] * l for _ in range(l)]
+    lo, hi = 0, 0
+
+    # fill in the base cases
+    for i in range(l - 1):
+        dp[i][i] = True
+        j = i + 1
+        if s[i] == s[j]:
+            dp[i][j] = True
+            if j - i > hi - lo:
+                lo, hi = i, j
+    dp[l-1][l-1] = True
+
+    # solve dp
+    for k in range(l - 2, 0, -1):
+        j = l - k
+        for i in range(j - 2 + 1):
+            if dp[i+1][j-1] and s[i] == s[j]:
+                dp[i][j] =  True
+                if j - i > hi - lo:
+                    lo, hi = i, j
+    return s[lo:hi+1]  # include char at hi
+```
+- Result
+    - Accepted
+- Note
+    - Filling in the base cases for DP can reduce unneccessary branching and
+      also make handling boundaries easier.
+    - When doing DP, traverse along rows if possible to maximize data locality.
+
+## take 3
+```python
+def longest_palindrome(self, s: str) -> str:
+    def expand_around_center(s: str, i: int, j:int) -> str:
+        lo, hi = i, i
+        while i >= 0 and j < len(s):
+            if s[i] != s[j]:
+                break;
+            if j - i > hi - lo:
+                lo, hi = i, j
+            i -= 1
+            j += 1
+        return s[lo:hi+1]  # include char at hi
+
+    l = []
+    length = len(s)
+    for i in range(length - 1):
+        l.append(expand_around_center(s, i, i))
+        l.append(expand_around_center(s, i, i + 1))
+    l.append(expand_around_center(s, length - 1, length - 1))
+    return max(l, key=lambda s: len(s))
+```
+- Result
+    - Accepted
+- Note
+    - Constant space complexity, which is a significant improvement over the
+      previous solution.
 
