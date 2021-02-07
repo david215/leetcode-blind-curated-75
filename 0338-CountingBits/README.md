@@ -29,3 +29,16 @@ public int[] countBits(int num) {
 - Result
     - Accepted
 
+## take 2
+- Python version
+- code
+```python
+
+```
+- Time
+    -
+- Space
+    -
+- Result
+    -
+
