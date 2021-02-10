@@ -1,6 +1,6 @@
 ## LeetCode Blind Curated 75
 
-### 41 / 75
+### 42 / 75
 
 **Problem** | **Difficulty** | **Solution + Write-up**
 -- | :-: | :-:
@@ -24,6 +24,7 @@
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0121-BestTimeToBuyAndSellStock/)
 [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0125-ValidPalindrome/)
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0141-LinkedListCycle/)
+[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0153-FindMinimumInRotatedSortedArray/)
 [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0190-ReverseBits/)
 [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0191-NumberOf1Bits/)
 [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0200-NumberOfIslands/)
