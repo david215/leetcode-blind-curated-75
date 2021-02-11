@@ -1,6 +1,6 @@
 ## LeetCode Blind Curated 75
 
-### 43 / 75
+### 44 / 75
 
 **Problem** | **Difficulty** | **Solution + Write-up**
 -- | :-: | :-:
@@ -17,6 +17,7 @@
 [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0053-MaximumSubarray/)
 [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0062-UniquePaths/)
 [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0070-ClimbingStairs/)
+[73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0073-SetMatrixZeroes/)
 [100. Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0100-SameTree/)
 [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0102-BinaryTreeLevelOrderTraversal/)
 [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0104-MaximumDepthOfBinaryTree/)
