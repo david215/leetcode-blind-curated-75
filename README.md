@@ -1,6 +1,6 @@
 ## LeetCode Blind Curated 75
 
-### 44 / 75
+### 45 / 75
 
 **Problem** | **Difficulty** | **Solution + Write-up**
 -- | :-: | :-:
@@ -41,6 +41,7 @@
 [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0252-MeetingRooms/)
 [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0253-MeetingRoomsII/)
 [268. Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0268-MissingNumber/)
+[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0300-LongestIncreasingSubsequence/)
 [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0323-NumberOfConnectedComponentsInAnUndirectedGraph/)
 [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0338-CountingBits/)
 [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0347-TopKFrequentElements/)
