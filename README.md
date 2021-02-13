@@ -1,6 +1,6 @@
 ## LeetCode Blind Curated 75
 
-### 45 / 75
+### 46 / 75
 
 **Problem** | **Difficulty** | **Solution + Write-up**
 -- | :-: | :-:
@@ -15,6 +15,7 @@
 [48. Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0048-RotateImage/)
 [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0049-GroupAnagrams/)
 [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0053-MaximumSubarray/)
+[56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0056-MergeIntervals/)
 [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0062-UniquePaths/)
 [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0070-ClimbingStairs/)
 [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0073-SetMatrixZeroes/)
