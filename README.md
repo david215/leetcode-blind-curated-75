@@ -1,6 +1,6 @@
 ## LeetCode Blind Curated 75
 
-### 47 / 75
+### 48 / 75
 
 **Problem** | **Difficulty** | **Solution + Write-up**
 -- | :-: | :-:
@@ -41,6 +41,7 @@
 [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0242-ValidAnagram/)
 [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0252-MeetingRooms/)
 [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0253-MeetingRoomsII/)
+[261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0261-GraphValidTree/)
 [268. Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0268-MissingNumber/)
 [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0300-LongestIncreasingSubsequence/)
 [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0323-NumberOfConnectedComponentsInAnUndirectedGraph/)
