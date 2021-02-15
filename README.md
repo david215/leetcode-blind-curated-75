@@ -1,6 +1,6 @@
 ## LeetCode Blind Curated 75
 
-### 48 / 75
+### 49 / 75
 
 **Problem** | **Difficulty** | **Solution + Write-up**
 -- | :-: | :-:
@@ -29,6 +29,7 @@
 [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0153-FindMinimumInRotatedSortedArray/)
 [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0190-ReverseBits/)
 [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0191-NumberOf1Bits/)
+[198. House Robber](https://leetcode.com/problems/house-robber/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0198-HouseRobber/)
 [200. Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0200-NumberOfIslands/)
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0206-ReverseLinkedList/)
 [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0207-CourseSchedule/)
