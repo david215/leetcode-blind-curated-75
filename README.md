@@ -1,6 +1,6 @@
 ## LeetCode Blind Curated 75
 
-### 50 / 75
+### 51 / 75
 
 **Problem** | **Difficulty** | **Solution + Write-up**
 -- | :-: | :-:
@@ -25,6 +25,7 @@
 [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0105-ConstructBinaryTreeFromPreorderAndInorderTraversal/)
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0121-BestTimeToBuyAndSellStock/)
 [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0125-ValidPalindrome/)
+[139. Word Break](https://leetcode.com/problems/word-break/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0139-WordBreak/)
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0141-LinkedListCycle/)
 [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0153-FindMinimumInRotatedSortedArray/)
 [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0190-ReverseBits/)
