@@ -1,6 +1,6 @@
 ## LeetCode Blind Curated 75
 
-### 52 / 75
+### 53 / 75
 
 **Problem** | **Difficulty** | **Solution + Write-up**
 -- | :-: | :-:
@@ -28,6 +28,7 @@
 [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0125-ValidPalindrome/)
 [139. Word Break](https://leetcode.com/problems/word-break/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0139-WordBreak/)
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0141-LinkedListCycle/)
+[143. Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0143-ReorderList/)
 [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0153-FindMinimumInRotatedSortedArray/)
 [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0190-ReverseBits/)
 [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0191-NumberOf1Bits/)
