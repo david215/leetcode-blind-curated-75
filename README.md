@@ -1,6 +1,6 @@
 ## LeetCode Blind Curated 75
 
-### 56 / 75
+### 57 / 75
 
 **Problem** | **Difficulty** | **Solution + Write-up**
 -- | :-: | :-:
@@ -51,6 +51,7 @@
 [261. Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0261-GraphValidTree/)
 [268. Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0268-MissingNumber/)
 [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0300-LongestIncreasingSubsequence/)
+[322. Coin Change](https://leetcode.com/problems/coin-change/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0322-CoinChange/)
 [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0323-NumberOfConnectedComponentsInAnUndirectedGraph/)
 [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0338-CountingBits/)
 [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0347-TopKFrequentElements/)
