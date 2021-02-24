@@ -1,6 +1,6 @@
 ## LeetCode Blind Curated 75
 
-### 55 / 75
+### 56 / 75
 
 **Problem** | **Difficulty** | **Solution + Write-up**
 -- | :-: | :-:
@@ -39,6 +39,7 @@
 [207. Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0207-CourseSchedule/)
 [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0208-ImplementTrie(PrefixTree)/)
 [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0211-DesignAddAndSearchWordsDataStructure/)
+[213. House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0213-HouseRobberII/)
 [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0217-ContainsDuplicate/)
 [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0226-InvertBinaryTree/)
 [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0230-KthSmallestElementInABST/)
