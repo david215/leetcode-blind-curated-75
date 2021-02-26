@@ -1,6 +1,6 @@
 ## LeetCode Blind Curated 75
 
-### 57 / 75
+### 58 / 75
 
 **Problem** | **Difficulty** | **Solution + Write-up**
 -- | :-: | :-:
@@ -12,6 +12,7 @@
 [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0019-RemoveNthNodeFromEndOfList/)
 [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0020-ValidParentheses/)
 [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0021-MergeTwoSortedLists/)
+[33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0033-SearchInRotatedSortedArray/)
 [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0039-CombinationSum/)
 [48. Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0048-RotateImage/)
 [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [Link](https://github.com/david215/lc-blind-curated-75/tree/main/0049-GroupAnagrams/)
